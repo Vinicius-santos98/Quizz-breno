@@ -21,6 +21,15 @@ public class Main {
         questoes[0].opcaoE = "e) Ryze";
         questoes[0].correta = "e";
 
+        questoes[1] = new Questao();
+        questoes[1].pergunta = "Qual é o nome do mapa principal onde acontecem as partidas ranqueadas?";
+        questoes[1].opcaoA = "a) Floresta Retorcida";
+        questoes[1].opcaoB = "b) Abismo dos Lamentos";
+        questoes[1].opcaoC = "c) Summoner's Rift";
+        questoes[1].opcaoD = "d) Campos da Justiça";
+        questoes[1].opcaoE = "e) Convergence";
+        questoes[1].correta = "c";
+
         for (int i = 0; i < 15; i++) {
             questoes[i].escrevaQuestao();
             String respostaUsuario = questoes[i].leiaResposta();
