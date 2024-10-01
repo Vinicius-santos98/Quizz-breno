@@ -120,6 +120,24 @@ public class Main {
         questoes[11].opcaoE = "e) Coletar ouro";
         questoes[11].correta = "b";
 
+        questoes[12] = new Questao();
+        questoes[12].pergunta = "Qual campeão tem como frase icônica 'Justiceiro imortal'?";
+        questoes[12].opcaoA = "a) Aatrox";
+        questoes[12].opcaoB = "b) Riven";
+        questoes[12].opcaoC = "c) Mordekaiser";
+        questoes[12].opcaoD = "d) Tryndamere";
+        questoes[12].opcaoE = "e) Nasus";
+        questoes[12].correta = "c";
+
+        questoes[13] = new Questao();
+        questoes[13].pergunta = "Qual campeão tem a habilidade de cura em área chamada 'Canção da Celeridade'?";
+        questoes[13].opcaoA = "a) Soraka";
+        questoes[13].opcaoB = "b) Sona";
+        questoes[13].opcaoC = "c) Nami";
+        questoes[13].opcaoD = "d) Janna";
+        questoes[13].opcaoE = "e) Yuumi";
+        questoes[13].correta = "b";
+
 
 
         for (int i = 0; i < 15; i++) {
