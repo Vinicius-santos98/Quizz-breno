@@ -102,6 +102,25 @@ public class Main {
         questoes[9].opcaoE = "e) Dragão da Tempestade";
         questoes[9].correta = "c";
 
+        questoes[10] = new Questao();
+        questoes[10].pergunta = "Qual é o nome do evento global que define o campeão mundial de League of Legends?";
+        questoes[10].opcaoA = "a) All-Star";
+        questoes[10].opcaoB = "b) MSI";
+        questoes[10].opcaoC = "c) Worlds";
+        questoes[10].opcaoD = "d) Rift Rivals";
+        questoes[10].opcaoE = "e) LCS";
+        questoes[10].correta = "c";
+
+        questoes[11] = new Questao();
+        questoes[11].pergunta = "Qual é o principal objetivo do jogo em Summoner's Rift?";
+        questoes[11].opcaoA = "a) Derrotar todos os inimigos";
+        questoes[11].opcaoB = "b) Destruir a base inimiga";
+        questoes[11].opcaoC = "c) Capturar o Dragão";
+        questoes[11].opcaoD = "d) Roubar o Barão";
+        questoes[11].opcaoE = "e) Coletar ouro";
+        questoes[11].correta = "b";
+
+
 
         for (int i = 0; i < 15; i++) {
             questoes[i].escrevaQuestao();
