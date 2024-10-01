@@ -66,6 +66,15 @@ public class Main {
         questoes[5].opcaoE = "e) Lee Sin";
         questoes[5].correta = "b";
 
+        questoes[6] = new Questao();
+        questoes[6].pergunta = "Qual campeão utiliza um tambor como instrumento de batalha?";
+        questoes[6].opcaoA = "a) Jhin";
+        questoes[6].opcaoB = "b) Illaoi";
+        questoes[6].opcaoC = "c) Sona";
+        questoes[6].opcaoD = "d) Kled";
+        questoes[6].opcaoE = "e) Sett";
+        questoes[6].correta = "b";
+
 
         for (int i = 0; i < 15; i++) {
             questoes[i].escrevaQuestao();
