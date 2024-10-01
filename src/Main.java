@@ -30,6 +30,16 @@ public class Main {
         questoes[1].opcaoE = "e) Convergence";
         questoes[1].correta = "c";
 
+        questoes[2] = new Questao();
+        questoes[2].pergunta = "Qual é o campeão conhecido como 'A Mão de Noxus'?";
+        questoes[2].opcaoA = "a) Swain";
+        questoes[2].opcaoB = "b) Darius";
+        questoes[2].opcaoC = "c) Draven";
+        questoes[2].opcaoD = "d) Riven";
+        questoes[2].opcaoE = "e) Talon";
+        questoes[2].correta = "b";
+
+
         for (int i = 0; i < 15; i++) {
             questoes[i].escrevaQuestao();
             String respostaUsuario = questoes[i].leiaResposta();
