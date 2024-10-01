@@ -75,6 +75,15 @@ public class Main {
         questoes[6].opcaoE = "e) Sett";
         questoes[6].correta = "b";
 
+        questoes[7] = new Questao();
+        questoes[7].pergunta = "Qual campeão pode invocar o 'Caminho da Serpente'?";
+        questoes[7].opcaoA = "a) Azir";
+        questoes[7].opcaoB = "b) Cassiopeia";
+        questoes[7].opcaoC = "c) K'Sante";
+        questoes[7].opcaoD = "d) Rakan";
+        questoes[7].opcaoE = "e) Aatrox";
+        questoes[7].correta = "c";
+
 
         for (int i = 0; i < 15; i++) {
             questoes[i].escrevaQuestao();
