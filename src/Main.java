@@ -48,6 +48,24 @@ public class Main {
         questoes[3].opcaoE = "e) Ivern";
         questoes[3].correta = "c";
 
+        questoes[4] = new Questao();
+        questoes[4].pergunta = "Qual dragão não fornece buffs permanentes, mas muda a geografia do mapa?";
+        questoes[4].opcaoA = "a) Dragão Infernal";
+        questoes[4].opcaoB = "b) Dragão das Nuvens";
+        questoes[4].opcaoC = "c) Dragão Hextec";
+        questoes[4].opcaoD = "d) Dragão Ancião";
+        questoes[4].opcaoE = "e) Dragão Quimtec";
+        questoes[4].correta = "e";
+
+        questoes[5] = new Questao();
+        questoes[5].pergunta = "Quem é o irmão de Yasuo no lore de 'League of Legends'?";
+        questoes[5].opcaoA = "a) Zed";
+        questoes[5].opcaoB = "b) Yone";
+        questoes[5].opcaoC = "c) Jhin";
+        questoes[5].opcaoD = "d) Shen";
+        questoes[5].opcaoE = "e) Lee Sin";
+        questoes[5].correta = "b";
+
 
         for (int i = 0; i < 15; i++) {
             questoes[i].escrevaQuestao();
