@@ -84,6 +84,24 @@ public class Main {
         questoes[7].opcaoE = "e) Aatrox";
         questoes[7].correta = "c";
 
+        questoes[8] = new Questao();
+        questoes[8].pergunta = "Qual campeão pode roubar as ultimates de outros campeões?";
+        questoes[8].opcaoA = "a) LeBlanc";
+        questoes[8].opcaoB = "b) Sylas";
+        questoes[8].opcaoC = "c) Neeko";
+        questoes[8].opcaoD = "d) Zed";
+        questoes[8].opcaoE = "e) Viego";
+        questoes[8].correta = "b";
+
+        questoes[9] = new Questao();
+        questoes[9].pergunta = "Qual é o nome do dragão gigante que aparece no final das partidas de ARAM?";
+        questoes[9].opcaoA = "a) Dragão Ancião";
+        questoes[9].opcaoB = "b) Dragão das Nuvens";
+        questoes[9].opcaoC = "c) Dragão de Gelo";
+        questoes[9].opcaoD = "d) Dragão da Morte";
+        questoes[9].opcaoE = "e) Dragão da Tempestade";
+        questoes[9].correta = "c";
+
 
         for (int i = 0; i < 15; i++) {
             questoes[i].escrevaQuestao();
