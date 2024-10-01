@@ -138,6 +138,15 @@ public class Main {
         questoes[13].opcaoE = "e) Yuumi";
         questoes[13].correta = "b";
 
+        questoes[14] = new Questao();
+        questoes[14].pergunta = "Qual é o nome do campeão que tem como forma passiva 'Ascensão Demoníaca'?";
+        questoes[14].opcaoA = "a) Aatrox";
+        questoes[14].opcaoB = "b) Veigar";
+        questoes[14].opcaoC = "c) Malzahar";
+        questoes[14].opcaoD = "d) Vladimir";
+        questoes[14].opcaoE = "e) Karthus";
+        questoes[14].correta = "a";
+
 
 
         for (int i = 0; i < 15; i++) {
