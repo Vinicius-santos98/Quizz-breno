@@ -39,6 +39,15 @@ public class Main {
         questoes[2].opcaoE = "e) Talon";
         questoes[2].correta = "b";
 
+        questoes[3] = new Questao();
+        questoes[3].pergunta = "Qual campeão é conhecido por seus cogumelos explosivos?";
+        questoes[3].opcaoA = "a) Rumble";
+        questoes[3].opcaoB = "b) Singed";
+        questoes[3].opcaoC = "c) Teemo";
+        questoes[3].opcaoD = "d) Zyra";
+        questoes[3].opcaoE = "e) Ivern";
+        questoes[3].correta = "c";
+
 
         for (int i = 0; i < 15; i++) {
             questoes[i].escrevaQuestao();
